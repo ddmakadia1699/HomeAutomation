@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "368961370619",
+    "firebase_url": "https://home-automation-eda63.firebaseio.com",
+    "project_id": "home-automation-eda63",
+    "storage_bucket": "home-automation-eda63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368961370619:android:e0bde011a593479892b35e",
+        "android_client_info": {
+          "package_name": "com.example.homeautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368961370619-pbhrdt1hesm82mulidl5d39c3uhn3s1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homeautomation",
+            "certificate_hash": "75619df45f7314c017417094bcd8811c3ea10e32"
+          }
+        },
+        {
+          "client_id": "368961370619-8cf9j0i57gdk1s239nk50kb5uo5eo7aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC57uG6AcPBVoi-I7-TocnEXLPQ524K32Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368961370619-8cf9j0i57gdk1s239nk50kb5uo5eo7aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
