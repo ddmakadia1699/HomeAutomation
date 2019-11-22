@@ -26,11 +26,9 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 public class GUI extends AppCompatActivity {
 
-
-
-    static String MQTTHOST = "tcp://soldier.cloudmqtt.com:18166";
-    static String USERNAME = "dtsghhrn";
-    static String PASSWORD = "ycDpcGIFTmK4";
+    static String MQTTHOST = "tcp://xxxxxx.cloudmqtt.com:xxxxx";
+    static String USERNAME = "xxxxxxxx";
+    static String PASSWORD = "xxxxxxxxxxx";
 
     String Status,pubString="esp/test",subString="esp/testStatus";
 
@@ -53,8 +51,6 @@ public class GUI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gui);
-
-
 
         String clientId = MqttClient.generateClientId();
         client = new MqttAndroidClient(this.getApplicationContext(), MQTTHOST, clientId);
