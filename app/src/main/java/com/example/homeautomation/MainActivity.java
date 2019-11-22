@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
     final DatabaseReference D7Status = myRef.child("S7");
     final DatabaseReference D8Status = myRef.child("S8");
 
-    static String MQTTHOST = "tcp://soldier.cloudmqtt.com:18166";
-    static String USERNAME = "dtsghhrn";
-    static String PASSWORD = "ycDpcGIFTmK4";
+    static String MQTTHOST = "tcp://xxxxxx.cloudmqtt.com:xxxxx";
+    static String USERNAME = "xxxxxxxx";
+    static String PASSWORD = "xxxxxxxxxxx";
 
     MqttAndroidClient client;
     TextView subTextD1,subTextD2,subTextD3,subTextD4,subTextD5,subTextD6,subTextD7,subTextD8;
